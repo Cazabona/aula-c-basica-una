@@ -1,17 +1,19 @@
-#include <stdio.h> // Biblioteca padrão de entrada e saída
 
-int main()
-{
-    int x = 10;
+#include <stdio.h>
 
-    if (x > 5)
-    {
-        printf("x é maior que 5\n");
-    }
-    else
-    {
-        printf("x é menor ou igual a 5\n");
-    }
+int main() {
+    // Write C code here
+   int num;
+   int resp;
+  printf("Coloque um numero: ");
+  scanf ("%d",&num);
+  
+  for (int i=1;i<=num;i++)
+  {
+      resp += i;
+  }
+  
+  printf ("a resposta é %d", resp);
 
     return 0;
 }
