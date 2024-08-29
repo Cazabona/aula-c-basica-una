@@ -1,22 +1,22 @@
+// Online C compiler to run C program online
 #include <stdio.h>
 
-int main()
-{
+int main() {
+    // Write C code here
+   int num;
+  printf("Coloque um numero: ");
+  scanf ("%d",&num);
+  
+  for (int i=2;i<num;i++)
+  {
+     if(num%i ==0){
+         printf("n é primo");
+         return 0;
+     }
+  }
+  
+  printf ("é primo");
+ 
 
-    int nota = 85;
-
-    if (nota >= 90)
-    {
-        printf("Nota A\n");
-    }
-    else if (nota >= 80)
-    {
-        printf("Nota B\n");
-    }
-    else
-    {
-        printf("Nota C\n");
-    }
-    
     return 0;
 }
