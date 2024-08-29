@@ -1,7 +1,21 @@
-#include <stdio.h> // Biblioteca padrão de entrada e saída
+// Online C compiler to run C program online
+#include <stdio.h>
 
-int main()
+int main() {
+    // Write C code here
+   int num;
+  
+  printf("Coloque um numero: ");
+  scanf ("%d",&num);
+if (num % 2 == 0)
 {
-    printf("Olá, Mundo!\n");
-    return 0; // Retorna 0 para indicar que o programa terminou corretamente
+    printf("Seu numero e par");
+}
+else
+{
+    printf ("Seu numero e impar");
+}
+  
+
+    return 0;
 }
